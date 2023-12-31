@@ -4,20 +4,18 @@ FROM node:16
 # 作業ディレクトリを設定
 WORKDIR /usr/src/app
 
-# パッケージ.jsonとパッケージロックファイルをコピー
+# package.json と package-lock.json をコピー
 COPY package*.json ./
 
-# npmパッケージをインストール
+# npm パッケージをインストール（プロジェクト依存関係にTypeScriptが含まれている場合はこれで十分）
 RUN npm install
-
-# TypeScriptをグローバルにインストール
-RUN npm install -g typescript
 
 # ソースコードをコンテナ内にコピー
 COPY . .
 
-# ポート3000を開放（必要に応じて変更）
-EXPOSE 3000
+# TypeScript をコンパイル
+RUN npm run build
 
 # コンテナ起動時に実行されるコマンド
-CMD ["node", "index.js"]
+CMD ["node", "dist/index.js"]
+

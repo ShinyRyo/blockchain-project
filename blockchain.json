@@ -1,0 +1,47 @@
+{
+  "chain": [
+    {
+      "index": 0,
+      "timestamp": "2023-12-31T07:27:10.161Z",
+      "data": "Genesis Block",
+      "previousHash": "0",
+      "hash": "a6c00cdb204c65167f2a689a74257163a5999e3028a84f6872d0470a9bca6064"
+    },
+    {
+      "index": 1,
+      "timestamp": "2023-12-31T07:27:10.166Z",
+      "data": {
+        "amount": 50
+      },
+      "previousHash": "a6c00cdb204c65167f2a689a74257163a5999e3028a84f6872d0470a9bca6064",
+      "hash": "afdc3634871ddb99f36983215a1a643d0c658c39086a653d3eddba3569075797"
+    },
+    {
+      "index": 2,
+      "timestamp": "2023-12-31T07:27:10.166Z",
+      "data": {
+        "amount": 30
+      },
+      "previousHash": "afdc3634871ddb99f36983215a1a643d0c658c39086a653d3eddba3569075797",
+      "hash": "d860ac4fa24b28ac473621e880de9374be9e0955deb524e641a3ddb5c441d65f"
+    },
+    {
+      "index": 1,
+      "timestamp": "2023-12-31T07:27:31.925Z",
+      "data": {
+        "amount": 50
+      },
+      "previousHash": "d860ac4fa24b28ac473621e880de9374be9e0955deb524e641a3ddb5c441d65f",
+      "hash": "a425f3b1405fb2f1b2c3ed7347c16b3172068babdc1f234b3d6fcadf60825776"
+    },
+    {
+      "index": 2,
+      "timestamp": "2023-12-31T07:27:31.925Z",
+      "data": {
+        "amount": 30
+      },
+      "previousHash": "a425f3b1405fb2f1b2c3ed7347c16b3172068babdc1f234b3d6fcadf60825776",
+      "hash": "5bc1c2c8a5dc4882f934d2c51418d388004c23665ecb2c593485497f346c7442"
+    }
+  ]
+}
