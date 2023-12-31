@@ -36,8 +36,12 @@ class Blockchain {
                 new Block(block.index, block.timestamp, block.data, block.previousHash)
             );
             return blockchain;
+        } else {
+            // blockchain.json ファイルが存在しない場合
+            const newBlockchain = new Blockchain();
+            newBlockchain.saveToFile(); // 新しいブロックチェーンをファイルに保存
+            return newBlockchain;
         }
-        return new Blockchain();
     }
 }
 
