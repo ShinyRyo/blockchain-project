@@ -42,6 +42,24 @@
       },
       "previousHash": "a425f3b1405fb2f1b2c3ed7347c16b3172068babdc1f234b3d6fcadf60825776",
       "hash": "5bc1c2c8a5dc4882f934d2c51418d388004c23665ecb2c593485497f346c7442"
+    },
+    {
+      "index": 1,
+      "timestamp": "2023-12-31T22:54:25.655Z",
+      "data": {
+        "amount": 50
+      },
+      "previousHash": "5bc1c2c8a5dc4882f934d2c51418d388004c23665ecb2c593485497f346c7442",
+      "hash": "c4400a72b0840823cb1af73c240e8b734065e998b1dbdca181032e873dfb2bb2"
+    },
+    {
+      "index": 2,
+      "timestamp": "2023-12-31T22:54:25.655Z",
+      "data": {
+        "amount": 30
+      },
+      "previousHash": "c4400a72b0840823cb1af73c240e8b734065e998b1dbdca181032e873dfb2bb2",
+      "hash": "a1f00d105ed88322ac053babd8c03198c2880aba776501fe1975bd0af364a440"
     }
   ]
 }
