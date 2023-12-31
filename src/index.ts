@@ -14,3 +14,12 @@ myBlockchain.saveToFile();
 
 console.log("Blockchain:");
 console.log(JSON.stringify(myBlockchain, null, 2));
+
+import * as fs from "fs";
+
+try {
+  fs.writeFileSync('test.json', JSON.stringify({ test: "Hello, World!" }));
+  console.log("File written successfully.");
+} catch (error) {
+  console.error("Error writing file:", error);
+}
